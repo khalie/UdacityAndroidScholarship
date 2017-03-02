@@ -6,7 +6,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/androidparty"
+        android:src="@drawable/party_balloons"
         android:scaleType="centerCrop"
         />
 
@@ -15,9 +15,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="32sp"
-        android:fontFamily="sans-serif-light"
-        android:textColor="@android:color/white"
-        android:padding="20dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
         />
 
     <TextView android:text="From, Peter" android:layout_width="wrap_content"
@@ -25,9 +26,9 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:textSize="32sp"
-        android:fontFamily="sans-serif-light"
-        android:textColor="@android:color/white"
-        android:padding="20dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/holo_blue_light"
+        android:padding="10dp"
         />
 
 </RelativeLayout>

@@ -14,18 +14,20 @@
         android:text="Happy Birthday Katrin!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="36sp"
+        android:textSize="32sp"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
+        android:padding="20dp"
         />
 
     <TextView android:text="From, Peter" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:textSize="36sp"
+        android:textSize="32sp"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
+        android:padding="20dp"
         />
 
 </RelativeLayout>

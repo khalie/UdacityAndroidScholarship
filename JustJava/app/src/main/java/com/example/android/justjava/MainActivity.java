@@ -10,7 +10,7 @@ import android.widget.TextView;
  */
 public class MainActivity extends AppCompatActivity {
 
-    int quantity = 2;
+    int quantity = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,9 +22,7 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the order button is clicked.
      */
     public void submitOrder(View view) {
-        int numberOfCoffees = 2;
-        display(numberOfCoffees);
-        displayPrice(numberOfCoffees*5);
+        displayPrice(quantity*5);
     }
 
     /**
@@ -49,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
     public void inc(View view) {
         quantity = quantity + 1;
         display(quantity);
-        displayPrice(quantity*5);
     }
 
     /**
@@ -58,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
     public void dec(View view) {
         quantity = quantity - 1;
         display(quantity);
-        displayPrice(quantity*5);
     }
 
 }

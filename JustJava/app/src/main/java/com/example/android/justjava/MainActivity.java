@@ -33,8 +33,30 @@ public class MainActivity extends AppCompatActivity {
         quantityTextView.setText("" + number);
     }
 
+    /**
+     * This method displays the price on the screen.
+     */
     private void displayPrice(int number) {
         TextView quantityTextView = (TextView) findViewById(R.id.price_text_view_text_view);
         quantityTextView.setText("$" + number);
     }
+
+    /**
+     * This method increments the amount of coffees by one
+     */
+    public void inc(View view) {
+        int currentAmount = 3;
+        display(currentAmount);
+        displayPrice(currentAmount*5);
+    }
+
+    /**
+     * This method decrements the amount of coffees by one
+     */
+    public void dec(View view) {
+        int currentAmount = 1;
+        display(currentAmount);
+        displayPrice(currentAmount*5);
+    }
+
 }
